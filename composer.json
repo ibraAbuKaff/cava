@@ -1,0 +1,24 @@
+{
+  "name": "ibraAbuKaff/cava",
+  "description": "Light package to convert any (HTML to PDF) format, OR (JSON to CSV), regardless what is the language you are using (English, Spanish, French, Japanese,.....). By using this package, you will not face any encoding issues which is the most popular issues in any converter",
+  "keywords": [
+    "Library",
+    "PHP",
+    "PDF",
+    "CSV",
+    "HTML",
+    "Converter"
+  ],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=5.6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
