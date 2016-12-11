@@ -21,4 +21,5 @@ Hello,
 ';
 $cavaConverter->loadHtml($htmlContent);
 
+//It will be downloadable file
 $cavaConverter->convertHtmlToPdf();
