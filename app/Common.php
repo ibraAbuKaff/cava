@@ -67,7 +67,15 @@ class Common
 
     }
 
-
+    /**
+     * DESC
+     *
+     * @param $array
+     *
+     * @return bool
+     *
+     * @author Ibraheem Abu Kaff <ibra.abukaff@tajawal.com>
+     */
     public static function isMultiDimensionalArray($array)
     {
         if (count($array) == count($array, COUNT_RECURSIVE)) {
@@ -78,6 +86,7 @@ class Common
     }
 
     /**
+     *
      * chr(0xEF) . chr(0xBB) . chr(0xBF) has been concatenated to make it work with all encoding types
      *
      * @see    : http://blog.programovani.net/en/php/special-characters-export-to-csv/
